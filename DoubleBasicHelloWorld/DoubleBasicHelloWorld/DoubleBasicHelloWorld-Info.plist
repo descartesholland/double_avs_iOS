@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>APIKey</key>
+	<string>eyJhbGciOiJSU0EtU0hBMjU2IiwidmVyIjoiMSJ9.eyJ2ZXIiOiIzIiwiZW5kcG9pbnRzIjp7ImF1dGh6IjoiaHR0cHM6Ly93d3cuYW1hem9uLmNvbS9hcC9vYSIsInRva2VuRXhjaGFuZ2UiOiJodHRwczovL2FwaS5hbWF6b24uY29tL2F1dGgvbzIvdG9rZW4ifSwiY2xpZW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1vYTItY2xpZW50LmZjNzQxNmQ5YzkwNjQ1MWU5N2Y4MzlhY2I3NjY4OWY1IiwiYXBwRmFtaWx5SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi45YzEyOTVhYTM5OTc0ODY0YWY1M2RiYzYxZTg1YmFiNiIsImJ1bmRsZVNlZWRJZCI6ImNvbS5kb3VibGVyb2JvdGlzLkRvdWJsZUJhc2ljSGVsbG9Xb3JsZCIsImJ1bmRsZUlkIjoiY29tLmRvdWJsZXJvYm90aXMuRG91YmxlQmFzaWNIZWxsb1dvcmxkIiwiaXNzIjoiQW1hem9uIiwidHlwZSI6IkFQSUtleSIsImFwcFZhcmlhbnRJZCI6ImFtem4xLmFwcGxpY2F0aW9uLWNsaWVudC41YzIyNDY4OGRlODU0NWExOGJlOWU0MjkyMWJkYjNjNSIsInRydXN0UG9vbCI6bnVsbCwiYXBwSWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1jbGllbnQuNWMyMjQ2ODhkZTg1NDVhMThiZTllNDI5MjFiZGIzYzUiLCJpZCI6ImVlY2FhNWRlLTA1OTYtMTFlNi1iZDU2LTgzNWFiOWI2Zjc5NiIsImlhdCI6IjE0NjEwMDU2NDkxMDkifQ==.bYfwWf+l89yGZtw5iWR0WJoBU/u6QIaNatPH4uIL68lrFVogy5FJejJi1tMvuvyOywFisSUKAjm3aK9dnrXW+M5UJ8Z1qL0/UaUvAKtIMYVUlmvsGqv4maxFV4jvM5bHxWv1+YTgSUWkIlKorRAf4IxVgxIJBBM9o76EceFRDmx3RV+zopuevDbUKaK/XfLbUG7qCWtzvLEwrJrzyyLmu+PxpG8QeLjdX5NGHMnZDA1rPFE8U5PonQVDkH6EsnwfOWCrkvJH1TxSQFv49ITVT7XQ8/WV5LWL+a9EXTUh22EqHPwuNtwbkWvTpgSwqToiQlAy+VYnb66Dxs7i6wk2bw==</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -9,7 +11,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.doublerobotics.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.doublerobotis.DoubleBasicHelloWorld</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -20,10 +22,66 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>amzn-com.doublerobotis.DoubleBasicHelloWorld</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>amzn-com.doublerobotis.DoubleBasicHelloWorld</string>
+				<string>dub</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>amazonaws.com</key>
+			<dict>
+				<key>NSThirdPartyExceptionMinimumTLSVersion</key>
+				<string>TLSv1.0</string>
+				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+				<false/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+			<key>amazon.com</key>
+			<dict>
+				<key>NSThirdPartyExceptionMinimumTLSVersion</key>
+				<string>TLSv1.0</string>
+				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+				<false/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>external-accessory</string>
+	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

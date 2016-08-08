@@ -1,0 +1,40 @@
+PODS:
+  - AWSCognito (2.4.6):
+    - AWSCore (= 2.4.6)
+  - AWSCognitoIdentityProvider (2.4.6):
+    - AWSCore (= 2.4.6)
+  - AWSCore (2.4.6)
+  - AWSIoT (2.4.6):
+    - AWSCore (= 2.4.6)
+  - AWSLambda (2.4.6):
+    - AWSCore (= 2.4.6)
+  - AWSSES (2.4.6):
+    - AWSCore (= 2.4.6)
+  - AWSSNS (2.4.6):
+    - AWSCore (= 2.4.6)
+  - AWSSQS (2.4.6):
+    - AWSCore (= 2.4.6)
+
+DEPENDENCIES:
+  - AWSCognito
+  - AWSCognitoIdentityProvider
+  - AWSCore
+  - AWSIoT
+  - AWSLambda
+  - AWSSES
+  - AWSSNS
+  - AWSSQS
+
+SPEC CHECKSUMS:
+  AWSCognito: 761e811df8ec3d418274ad4248b4ac2e4727e65b
+  AWSCognitoIdentityProvider: c904b7bf9296fea0ef421d43c1bad88922d75178
+  AWSCore: 402048153597591f2ec54b0f650b88dfb3a1b6ef
+  AWSIoT: f81bec97656d4ff8d66ec22e0273935e6a9531b8
+  AWSLambda: 7406af5d5231e3ba869af546fd10201e3ae65e8d
+  AWSSES: a2b64922d32645f166452f7ab7cf10ff5ee94998
+  AWSSNS: 7f7e2f79358bfa03cf0178257812cce10a6ef42b
+  AWSSQS: 9324979a93f7c4b5cd4cf49da84db7690a0e33b3
+
+PODFILE CHECKSUM: ffc683a688242f460073635205212b9fe5f0e57c
+
+COCOAPODS: 1.0.1
