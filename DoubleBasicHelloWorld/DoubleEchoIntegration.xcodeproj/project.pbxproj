@@ -146,14 +146,14 @@
 
 /* Begin PBXFileReference section */
 		017387AD5C83582367C22CC8 /* Pods-DoubleBasicHelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubleBasicHelloWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoubleBasicHelloWorld/Pods-DoubleBasicHelloWorld.release.xcconfig"; sourceTree = "<group>"; };
-		022C40FF17AE279C00385168 /* DoubleBasicHelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleBasicHelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		022C40FF17AE279C00385168 /* DoubleEchoIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleEchoIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		022C410217AE279C00385168 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		022C410417AE279C00385168 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		022C410617AE279C00385168 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		022C410A17AE279C00385168 /* DoubleBasicHelloWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubleBasicHelloWorld-Info.plist"; sourceTree = "<group>"; };
+		022C410A17AE279C00385168 /* DoubleEchoIntegration-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubleEchoIntegration-Info.plist"; sourceTree = "<group>"; };
 		022C410C17AE279C00385168 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		022C410E17AE279C00385168 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		022C411017AE279C00385168 /* DoubleBasicHelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoubleBasicHelloWorld-Prefix.pch"; sourceTree = "<group>"; };
+		022C411017AE279C00385168 /* DoubleEchoIntegration-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoubleEchoIntegration-Prefix.pch"; sourceTree = "<group>"; };
 		022C411117AE279C00385168 /* DRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRAppDelegate.h; sourceTree = "<group>"; };
 		022C411217AE279C00385168 /* DRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRAppDelegate.m; sourceTree = "<group>"; };
 		022C411417AE279C00385168 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -397,7 +397,7 @@
 		022C410017AE279C00385168 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				022C40FF17AE279C00385168 /* DoubleBasicHelloWorld.app */,
+				022C40FF17AE279C00385168 /* DoubleEchoIntegration.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -466,10 +466,10 @@
 				1EEA0D951CBEC807003DA2BD /* btnLWA_gold_314x72_pressed.png */,
 				1EEA0D961CBEC807003DA2BD /* ca.der */,
 				1EEA0D971CBEC807003DA2BD /* Default-568h@2x.png */,
-				022C410A17AE279C00385168 /* DoubleBasicHelloWorld-Info.plist */,
+				022C410A17AE279C00385168 /* DoubleEchoIntegration-Info.plist */,
 				022C410B17AE279C00385168 /* InfoPlist.strings */,
 				022C410E17AE279C00385168 /* main.m */,
-				022C411017AE279C00385168 /* DoubleBasicHelloWorld-Prefix.pch */,
+				022C411017AE279C00385168 /* DoubleEchoIntegration-Prefix.pch */,
 				022C411417AE279C00385168 /* Default.png */,
 				022C411617AE279C00385168 /* Default@2x.png */,
 				022C411817AE279C00385168 /* Default-568h@2x.png */,
@@ -751,9 +751,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		022C40FE17AE279C00385168 /* DoubleBasicHelloWorld */ = {
+		022C40FE17AE279C00385168 /* DoubleEchoIntegration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 022C412217AE279C00385168 /* Build configuration list for PBXNativeTarget "DoubleBasicHelloWorld" */;
+			buildConfigurationList = 022C412217AE279C00385168 /* Build configuration list for PBXNativeTarget "DoubleEchoIntegration" */;
 			buildPhases = (
 				39BFDD8729AD6DF6D42C18ED /* [CP] Check Pods Manifest.lock */,
 				022C40FB17AE279C00385168 /* Sources */,
@@ -766,9 +766,9 @@
 			);
 			dependencies = (
 			);
-			name = DoubleBasicHelloWorld;
+			name = DoubleEchoIntegration;
 			productName = DoubleBasicHelloWorld;
-			productReference = 022C40FF17AE279C00385168 /* DoubleBasicHelloWorld.app */;
+			productReference = 022C40FF17AE279C00385168 /* DoubleEchoIntegration.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -791,7 +791,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 022C40FA17AE279C00385168 /* Build configuration list for PBXProject "DoubleBasicHelloWorld" */;
+			buildConfigurationList = 022C40FA17AE279C00385168 /* Build configuration list for PBXProject "DoubleEchoIntegration" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -803,7 +803,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				022C40FE17AE279C00385168 /* DoubleBasicHelloWorld */,
+				022C40FE17AE279C00385168 /* DoubleEchoIntegration */,
 			);
 		};
 /* End PBXProject section */
@@ -1093,12 +1093,12 @@
 					"$(PROJECT_DIR)/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DoubleBasicHelloWorld/DoubleBasicHelloWorld-Prefix.pch";
-				INFOPLIST_FILE = "DoubleBasicHelloWorld/DoubleBasicHelloWorld-Info.plist";
+				GCC_PREFIX_HEADER = "DoubleBasicHelloWorld/DoubleEchoIntegration-Prefix.pch";
+				INFOPLIST_FILE = "DoubleBasicHelloWorld/DoubleEchoIntegration-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.doublerobotis.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DoubleEchoIntegration;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
@@ -1120,12 +1120,12 @@
 					"$(PROJECT_DIR)/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DoubleBasicHelloWorld/DoubleBasicHelloWorld-Prefix.pch";
-				INFOPLIST_FILE = "DoubleBasicHelloWorld/DoubleBasicHelloWorld-Info.plist";
+				GCC_PREFIX_HEADER = "DoubleBasicHelloWorld/DoubleEchoIntegration-Prefix.pch";
+				INFOPLIST_FILE = "DoubleBasicHelloWorld/DoubleEchoIntegration-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.doublerobotis.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DoubleEchoIntegration;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
@@ -1135,7 +1135,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		022C40FA17AE279C00385168 /* Build configuration list for PBXProject "DoubleBasicHelloWorld" */ = {
+		022C40FA17AE279C00385168 /* Build configuration list for PBXProject "DoubleEchoIntegration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				022C412017AE279C00385168 /* Debug */,
@@ -1144,7 +1144,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		022C412217AE279C00385168 /* Build configuration list for PBXNativeTarget "DoubleBasicHelloWorld" */ = {
+		022C412217AE279C00385168 /* Build configuration list for PBXNativeTarget "DoubleEchoIntegration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				022C412317AE279C00385168 /* Debug */,
