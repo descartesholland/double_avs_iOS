@@ -3,7 +3,6 @@
 //  DoubleBasicHelloWorld
 //
 //  Created by Descartes Holland on 8/3/16.
-//  Copyright © 2016 Double Robotics, Inc. All rights reserved.
 //
 
 #include "DRAudioController.h"
